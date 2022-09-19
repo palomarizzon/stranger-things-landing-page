@@ -1,0 +1,262 @@
+@media (max-width: 590px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 2rem;
+  }
+
+  .form-container {
+    width: 90%;
+    margin-left: -8%;
+  }
+
+  footer::before,
+  footer::after {
+    width: 30vw;
+    height: 21vw;
+    position: absolute;
+    bottom: -4vw;
+  }
+
+  footer::before {
+    left: -4vh;
+    transform: rotateZ(-10deg);
+  }
+
+  footer::after {
+    right: -4vh;
+    transform: rotateZ(10deg);
+  }
+}
+
+@media (max-width: 830px) {
+  #section-stranger-things-gallery .gallery-image {
+    outline: 10px solid var(--highlight-color);
+  }
+
+  #section-stranger-things-gallery .gallery-container {
+    padding-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #section-stranger-things-gallery .gallery-container li {
+    min-height: 200px;
+    min-width: 200px;
+  }
+
+  footer::before,
+  footer::after {
+    width: 20vw;
+    height: 21vw;
+    position: absolute;
+    bottom: -10vw;
+  }
+
+  footer::before {
+    left: -2vh;
+  }
+
+  footer::after {
+    right: -2vh;
+  }
+}
+
+@media (max-width: 1028px) {
+  section {
+    display: block;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  #section-inverted-world .section-texts {
+    width: 100%;
+  }
+
+  #section-inverted-world .section-texts h2 {
+    max-width: unset;
+    text-align: center;
+  }
+
+  #section-inverted-world .section-texts p {
+    text-align: center;
+  }
+
+  #image-inverted-world {
+    width: 40%;
+    height: 40%;
+    padding-top: 50px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #image-inverted-world img {
+    height: unset;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  #section-stranger-things-trailer {
+    margin-bottom: 60px;
+  }
+
+  #section-stranger-things-trailer .section-texts p {
+    text-align: center;
+  }
+
+  #section-stranger-things-trailer .section-texts h2 {
+    max-width: unset;
+    width: 100%;
+    text-align: center;
+  }
+
+  #section-stranger-things-trailer .video-frame {
+    display: flex;
+    margin: auto;
+  }
+
+  #section-stranger-things-trailer .video-frame,
+  iframe {
+    width: 100%;
+    max-width: 600px;
+    max-height: 340px;
+    height: 50vw;
+  }
+
+  #section-stranger-things-trailer .section-texts {
+    width: 100%;
+    padding-top: 52px;
+  }
+
+  #section-stranger-things-gallery {
+    display: block;
+    width: 90vw;
+  }
+
+  #section-stranger-things-gallery .background-lamps {
+    display: none;
+  }
+
+  #section-stranger-things-gallery .container h2 {
+    width: unset;
+  }
+
+  #section-stranger-things-gallery .section-text h2 {
+    text-align: center;
+    padding-left: unset;
+  }
+
+  #section-stranger-things-gallery .gallery-container {
+    padding-left: unset;
+  }
+
+  #section-stranger-things-gallery .gallery-image {
+    width: calc(80vw / 3);
+    height: calc(80vw / 4);
+    border: 3px solid var(--primary-color);
+  }
+
+  #section-form h2 {
+    width: 90vw;
+  }
+
+  .form-content {
+    flex-direction: column;
+  }
+
+  #section-form .form-content .form-title {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    text-align: center;
+  }
+
+  footer p {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 1800px) {
+  #section-stranger-things-gallery .gallery-image {
+    width: 400px;
+  }
+}
+
+@media (min-width: 2000px) {
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 21px;
+  }
+
+  #image-inverted-world {
+    height: unset;
+  }
+
+  #image-inverted-world img {
+    height: unset;
+  }
+
+  #section-inverted-world .section-texts h2 {
+    max-width: unset;
+    margin-top: -120px;
+  }
+
+  #section-stranger-things-trailer .video-frame iframe {
+    min-width: 700px;
+    min-height: 360px;
+  }
+
+  #section-stranger-things-trailer .video-frame {
+    margin-left: 100px;
+  }
+
+  #section-stranger-things-trailer .section-texts h2 {
+    max-width: unset;
+    padding-top: 80px;
+  }
+
+  #section-stranger-things-gallery .container h2 {
+    width: 1000px;
+    margin-top: 40px;
+  }
+
+  #section-stranger-things-gallery .background-lamps {
+    width: 34%;
+    height: 53%;
+  }
+
+  #section-form h2 {
+    width: unset;
+    margin-bottom: unset;
+    margin-top: 70px;
+  }
+
+  #section-form p {
+    padding-bottom: 32px;
+  }
+
+  footer p {
+    max-width: 850px;
+  }
+
+  footer::before,
+  footer::after {
+    width: 15vw;
+    height: 20vw;
+    bottom: -20vh;
+  }
+
+  footer::before {
+    left: 0;
+  }
+
+  footer::after {
+    right: 0;
+  }
+}
