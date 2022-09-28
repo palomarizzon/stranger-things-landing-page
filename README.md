@@ -1,7 +1,7 @@
 ## Stranger Things - Landing Page | Semana Front-end | DIO - Digital Innovation One
 
 <div>
-<img src="https://raw.githubusercontent.com/palomarizzon/stranger-things-landing-page/af48821444b98d148b1d36437dc730d81cc49496/assets/images/banner/logo.svg"/></div><br>
+<br><img src="https://raw.githubusercontent.com/palomarizzon/stranger-things-landing-page/af48821444b98d148b1d36437dc730d81cc49496/assets/images/banner/logo.svg" width="400px"/></div><br>
 
 ✨ Uma jornada para quem não tem medo do desconhecido.<br>
 🔗 [Link para o site no CodePen](https://codepen.io/palomarizzon/pen/gOzgRpx)
